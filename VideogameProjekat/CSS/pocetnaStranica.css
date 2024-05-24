@@ -1,0 +1,61 @@
+*{
+    margin: 5px;
+}
+
+body{
+    font-family: cursive;
+}
+
+.navbar{
+    background-color: rgb(240, 80, 80);
+    border: 3px solid black;
+    font-size: 18pt;
+}
+
+.nav-item > a{
+    margin: auto;
+    padding: auto;
+    -webkit-text-fill-color: black;
+    border-bottom: 5px dotted transparent;
+}
+
+.nav-item > a:hover{
+    -webkit-text-fill-color: yellow;
+    border-bottom: 5px dotted cornflowerblue;
+}
+
+.navbar-toggler{
+    justify-self: left;
+}
+
+.container{
+    display: block;
+    /*width: 80%;*/
+    /*border: 1px solid black;*/
+    align-content:center;
+    
+}
+
+h1, p{
+    margin: 15px;
+    text-align:center;
+}
+
+.paragraphText{
+    font-size: 15pt;
+    
+}
+
+.col-md-8{
+    border: 5px dotted cornflowerblue;
+    align-content: center;
+}
+
+.gallery-image{
+            
+    margin-left: 12%;
+    margin-right: auto;
+    width: 75%;
+    height: auto;
+    object-fit: cover;
+}

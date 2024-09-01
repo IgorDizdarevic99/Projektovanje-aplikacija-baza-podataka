@@ -1,0 +1,95 @@
+*{
+    margin: 5px;
+}
+
+body{
+    display: flex;
+    background-color:cornflowerblue;
+    font-family:cursive;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 5%;
+    align-self: center;
+    align-items: center;
+}
+
+.row{
+    align-self: center;
+}
+
+.col-1{
+    display: block;
+}
+
+.col-10{
+    display: inline;
+}
+
+.card{
+    background-color: rgb(240, 80, 80);
+    display:flex;
+    justify-content: center;
+    justify-self: center;
+    border: 2px solid black;
+    -webkit-text-fill-color: black;
+    min-width: max-content;
+}
+
+.card-header{
+    display: grid;
+    border: 2px solid black;
+    font-size: 15pt;
+    justify-content: center;
+    justify-self: center;
+}
+
+.form-control{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.navbar-brand{
+    font-size: 20pt;
+}
+
+.nav-item > a{
+    margin: auto;
+    padding: auto;
+    -webkit-text-fill-color: black;
+    border-bottom: 5px dotted transparent;
+}
+
+.nav-item > a:hover{
+    -webkit-text-fill-color: yellow;
+    border-bottom: 5px dotted cornflowerblue;
+}
+
+.card-body{
+    border: 2px solid black;
+    background-color: white;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+.btn-primary{
+    background-color: rgb(240, 80, 80); /* rgb(121, 121, 245);*/
+    -webkit-text-fill-color: black;
+    border-color: black;
+}
+
+.btn-primary:hover , .btn-primary:focus {
+    background-color: yellow;
+    border-color: black;
+}
+
+.card-footer{
+    background-color: rgb(240, 80, 80);
+}
+
+
